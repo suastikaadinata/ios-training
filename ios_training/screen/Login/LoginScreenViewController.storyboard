@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Screen View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="LoginScreenViewController" customModule="ios_training" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPi-rN-Puq">
+                                <rect key="frame" x="-0.66666666666665719" y="0.0" width="429.33333333333326" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="9O6-5z-uAD">
+                                        <rect key="frame" x="202.66666666666666" y="18" width="24" height="24"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rxS-5p-ylQ">
+                                        <rect key="frame" x="152.33333333333331" y="14" width="125" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125" id="3lS-Y3-Jie"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.14901960784313725" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="centerX" secondItem="9O6-5z-uAD" secondAttribute="centerX" id="8qP-Qz-IjG"/>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="centerY" secondItem="FPi-rN-Puq" secondAttribute="centerY" id="9qt-Ll-VED"/>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="top" secondItem="FPi-rN-Puq" secondAttribute="top" constant="14" id="Grp-jy-rDA"/>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="centerY" secondItem="9O6-5z-uAD" secondAttribute="centerY" id="OsR-5H-Cn8"/>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="leading" secondItem="FPi-rN-Puq" secondAttribute="leading" constant="152" id="e1Q-pf-gCM"/>
+                                    <constraint firstItem="rxS-5p-ylQ" firstAttribute="centerX" secondItem="FPi-rN-Puq" secondAttribute="centerX" id="pPy-9L-jSc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.0" green="0.14901960784313725" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FPi-rN-Puq" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="IIs-hg-a3p"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="9O6-5z-uAD" secondAttribute="top" constant="29" id="h6Z-5a-jKK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.663551401869157" y="-40.172786177105834"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back.png" width="24" height="24"/>
+        <image name="logo.png" width="247" height="32"/>
+    </resources>
+</document>

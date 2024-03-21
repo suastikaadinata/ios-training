@@ -18,6 +18,11 @@ class WelcomeScreenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnGetStartedTouchUpInside(_ sender: Any){
+        let storyboard: UIStoryboard = UIStoryboard(name: "LoginScreenViewController", bundle: nil)
+        let loginViewController = storyboard.instantiateInitialViewController()!
+        self.navigationController?.pushViewController(loginViewController, animated: true)
+    }
 
     /*
     // MARK: - Navigation

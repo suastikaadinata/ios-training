@@ -24,8 +24,12 @@ class ViewController: UIViewController {
             let storyboard: UIStoryboard = UIStoryboard(name: "WelcomeScreenViewController", bundle: nil)
 //            let welcomeViewController = storyboard.instantiateInitialViewController(identifier: "WelcomeScreenViewController") as! WelcomeScreenViewController
             let welcomeViewController = storyboard.instantiateInitialViewController()!
-           // self.present(welcomeViewController, animated: true, completion: nil)
-           self.navigationController?.pushViewController(welcomeViewController, animated: true)
+            
+            let nav = UINavigationController(rootViewController: welcomeViewController)
+            nav.modalPresentationStyle = .fullScreen
+            nav.modalTransitionStyle = .crossDissolve
+            self.present(nav, animated: true, completion: nil)
+//           self.navigationController?.pushViewController(welcomeViewController, animated: true)
             //AppDelegate.shared.window?.rootViewController = welcomeViewController
         }
     }

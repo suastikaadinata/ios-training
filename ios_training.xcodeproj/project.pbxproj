@@ -16,10 +16,13 @@
 		B719DB272BA80846007C57C4 /* ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719DB262BA80846007C57C4 /* ios_trainingTests.swift */; };
 		B719DB312BA80846007C57C4 /* ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719DB302BA80846007C57C4 /* ios_trainingUITests.swift */; };
 		B719DB332BA80846007C57C4 /* ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719DB322BA80846007C57C4 /* ios_trainingUITestsLaunchTests.swift */; };
-		B719DB422BA8094B007C57C4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B719DB412BA8094B007C57C4 /* logo.png */; };
 		B719DB462BA80C83007C57C4 /* WelcomeScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B719DB452BA80C83007C57C4 /* WelcomeScreenViewController.storyboard */; };
 		B719DB482BA80C94007C57C4 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719DB472BA80C94007C57C4 /* WelcomeScreenViewController.swift */; };
-		B719DB4A2BA80CD3007C57C4 /* unsplash_A-obUh61bKw.png in Resources */ = {isa = PBXBuildFile; fileRef = B719DB492BA80CD3007C57C4 /* unsplash_A-obUh61bKw.png */; };
+		B73A1AB02BAC0827001A8AB4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B73A1AAF2BAC0827001A8AB4 /* back.png */; };
+		B77AADBC2BAAA87F00809D5F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B77AADBA2BAAA87F00809D5F /* logo.png */; };
+		B77AADBD2BAAA87F00809D5F /* unsplash_A-obUh61bKw.png in Resources */ = {isa = PBXBuildFile; fileRef = B77AADBB2BAAA87F00809D5F /* unsplash_A-obUh61bKw.png */; };
+		B7BE9D012BAAD72700208432 /* LoginScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BE9D002BAAD72700208432 /* LoginScreenViewController.storyboard */; };
+		B7BE9D032BAAD73800208432 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE9D022BAAD73800208432 /* LoginScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +56,13 @@
 		B719DB2C2BA80846007C57C4 /* ios_trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_trainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B719DB302BA80846007C57C4 /* ios_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_trainingUITests.swift; sourceTree = "<group>"; };
 		B719DB322BA80846007C57C4 /* ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B719DB412BA8094B007C57C4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../../Downloads/logo.png; sourceTree = "<group>"; };
 		B719DB452BA80C83007C57C4 /* WelcomeScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeScreenViewController.storyboard; sourceTree = "<group>"; };
 		B719DB472BA80C94007C57C4 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
-		B719DB492BA80CD3007C57C4 /* unsplash_A-obUh61bKw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unsplash_A-obUh61bKw.png"; path = "../../../../../../../Downloads/unsplash_A-obUh61bKw.png"; sourceTree = "<group>"; };
+		B73A1AAF2BAC0827001A8AB4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../../../../../../Downloads/Icon/back.png; sourceTree = "<group>"; };
+		B77AADBA2BAAA87F00809D5F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../../../Downloads/logo.png; sourceTree = "<group>"; };
+		B77AADBB2BAAA87F00809D5F /* unsplash_A-obUh61bKw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unsplash_A-obUh61bKw.png"; path = "../../../../../../../../Downloads/unsplash_A-obUh61bKw.png"; sourceTree = "<group>"; };
+		B7BE9D002BAAD72700208432 /* LoginScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreenViewController.storyboard; sourceTree = "<group>"; };
+		B7BE9D022BAAD73800208432 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +154,9 @@
 		B719DB402BA8093F007C57C4 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B719DB412BA8094B007C57C4 /* logo.png */,
-				B719DB492BA80CD3007C57C4 /* unsplash_A-obUh61bKw.png */,
+				B73A1AAF2BAC0827001A8AB4 /* back.png */,
+				B77AADBA2BAAA87F00809D5F /* logo.png */,
+				B77AADBB2BAAA87F00809D5F /* unsplash_A-obUh61bKw.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 		B719DB432BA80C4E007C57C4 /* screen */ = {
 			isa = PBXGroup;
 			children = (
+				B7BE9CFF2BAAD71100208432 /* Login */,
 				B719DB442BA80C5F007C57C4 /* Welcome */,
 			);
 			path = screen;
@@ -169,6 +177,15 @@
 				B719DB472BA80C94007C57C4 /* WelcomeScreenViewController.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		B7BE9CFF2BAAD71100208432 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE9D002BAAD72700208432 /* LoginScreenViewController.storyboard */,
+				B7BE9D022BAAD73800208432 /* LoginScreenViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B719DB462BA80C83007C57C4 /* WelcomeScreenViewController.storyboard in Resources */,
-				B719DB422BA8094B007C57C4 /* logo.png in Resources */,
+				B7BE9D012BAAD72700208432 /* LoginScreenViewController.storyboard in Resources */,
+				B77AADBC2BAAA87F00809D5F /* logo.png in Resources */,
 				B719DB1C2BA80846007C57C4 /* LaunchScreen.storyboard in Resources */,
+				B73A1AB02BAC0827001A8AB4 /* back.png in Resources */,
 				B719DB192BA80846007C57C4 /* Assets.xcassets in Resources */,
 				B719DB172BA80845007C57C4 /* Main.storyboard in Resources */,
-				B719DB4A2BA80CD3007C57C4 /* unsplash_A-obUh61bKw.png in Resources */,
+				B77AADBD2BAAA87F00809D5F /* unsplash_A-obUh61bKw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +327,7 @@
 				B719DB142BA80845007C57C4 /* ViewController.swift in Sources */,
 				B719DB482BA80C94007C57C4 /* WelcomeScreenViewController.swift in Sources */,
 				B719DB102BA80845007C57C4 /* AppDelegate.swift in Sources */,
+				B7BE9D032BAAD73800208432 /* LoginScreenViewController.swift in Sources */,
 				B719DB122BA80845007C57C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +514,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ios_training/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -522,7 +542,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ios_training/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
